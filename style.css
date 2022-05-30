@@ -24,7 +24,7 @@
   font-family: fantasy, cursive;
 }
 
-@media (max-width:768px) {
+@media (max-width: 768px) {
 
   .header { 
     text-align: center;
@@ -38,7 +38,7 @@
 
 .section__title,
 .item {
-  list-style:none;
+  list-style: none;
 }
 
 .section__title {
@@ -51,7 +51,7 @@
 }
 
 .list {
-  margin:0;
+  margin: 0;
   padding: 0px;
 }
 
@@ -102,12 +102,12 @@
 }
 
 .item__input_edit-mode {
-  display:inline-block;
-  width:224px
+  display: inline-block;
+  width: 224px
 }
 
 .item__btn {
-  outline:none;
+  outline: none;
   background: none;
   border: 0px;
   color: #888;
@@ -142,7 +142,7 @@
 }
 
 .item__label_edit-mode {
-  display:none;
+  display: none;
 }
 
 .list_completed .item__label {
