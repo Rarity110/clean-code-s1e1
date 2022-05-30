@@ -48,8 +48,8 @@ var createNewTaskElement=function(taskString){
 
     var deleteButtonImg=document.createElement("img");//delete button image
     deleteButtonImg.className = "btn__img";
-   
     deleteButtonImg.src='./remove.svg';
+    deleteButtonImg.alt = "delete"
     deleteButton.appendChild(deleteButtonImg);
 
     //Each elements, needs appending
