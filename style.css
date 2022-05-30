@@ -106,7 +106,7 @@
   width:224px
 }
 
-.item__button {
+.item__btn {
   outline:none;
   background: none;
   border: 0px;
@@ -117,17 +117,17 @@
   cursor: pointer;
 }
 
-.item__button:hover {
+.item__btn:hover {
   color: #3a3A3a;
 }
 
-.button__img{
+.btn__img{
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
 
-.button__img:hover {
+.btn__img:hover {
   transform: rotateZ(0);
 }
 
